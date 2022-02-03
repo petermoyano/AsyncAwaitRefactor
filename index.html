@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice with promises</title>
+</head>
+
+<body>
+    <h1>Practicing with some API requests (Promises version)</h1>
+    <p>Please insert a number and we will respond with some facts about it</p>
+    <div>
+        <h2>One number facts</h2>
+        <hr>
+        <input type="text" id="userInput">
+        <button type="submit" id="btn1"> Show me </button>
+    </div>
+    <div>
+        <h2>Multiple number facts</h2>
+        <hr>
+        <input type="text" id="userInput2">
+        <input type="text" id="userInput3">
+        <button type="submit" id="btn2"> Show me </button>
+    </div>
+    <div>
+        <h2> 4 facts about same number</h2>
+        <hr>
+        <input type="text" id="userInput4">
+        <button type="submit" id="btn3"> Show me </button>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <div class="facts">
+        <ul></ul>
+    </div>
+    <button id="newDeck">Show me a card</button>
+    <button id="newCard" style="display: none">Show me another one</button>
+    
+    <div id="cards"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
